@@ -1,0 +1,9 @@
+Problems/
+.idea/
+*.yaml
+*.html
+*.txt
+*.pyc
+test_helper.py
+main.py
+Text Generator/task/tests.py
