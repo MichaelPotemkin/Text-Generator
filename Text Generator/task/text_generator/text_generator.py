@@ -32,7 +32,7 @@ def generate_sentence(beginning=None):
                 break
 
         if last_word not in tails:
-            return generate_sentence()
+            return generate_sentence(beginning)
 
     for _ in range(30):
         tail = choices(list(dictionary[sent_end].keys()), list(dictionary[sent_end].values()))[0]
